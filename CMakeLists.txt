@@ -65,7 +65,7 @@ add_custom_command(
 
 add_custom_target(protocol DEPENDS ${schema_out})
         
-add_subdirectory(apps/FbxStream)
+#add_subdirectory(apps/FbxStream)
 add_subdirectory(apps/Repeater)
 add_subdirectory(apps/SubscribeTest)
 add_subdirectory(src)     
